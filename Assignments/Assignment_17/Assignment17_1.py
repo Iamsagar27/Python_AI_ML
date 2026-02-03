@@ -1,24 +1,24 @@
-# 1. Create on module named as Arithmetic which contains 4 functions as Add() for addition, Sub() for subtraction, 
-# Mult() for multiplication and Div() for division. 
+# 1. Create on module named as Arithmetic which contains 4 functions as Add() for addition, 
+# Sub() for subtraction, Mult() for multiplication and Div() for division. 
 # All functions accepts two parameters as number and perform the operation. 
-# Write on python program which call all the functions from Arithmetic module by accepting the parameters from user.
+# Write on python program which call all the functions from Arithmetic module by accepting 
+# the parameters from user.
 
-def ChkNum(num):
-    if num % 2 == 0 :
-        return "Even Number"
-    else :
-        return "Odd Number"
+import Arithmetic
 
 def main():
-    try:
-       number = int(input("Enter a number : "))
+    number1 = int(input("Enter first number : "))
+    number2 = int(input("Enter second number : "))
        
-       result = ChkNum(number)
+    Addition = Arithmetic.Addition(number1,number2)
+    Subtraction = Arithmetic.Subtraction(number1,number2)
+    Multiplication = Arithmetic.Multiplication(number1,number2)
+    Division = Arithmetic.Division(number1,number2)
        
-       print(result)
-    
-    except ValueError as vobj:
-        print(vobj)
+    print("Addition : ", Addition)
+    print("Subtraction : ", Subtraction)
+    print("Multiplication : ", Multiplication)
+    print("Division : ", Division)
 
 if __name__ == "__main__":
     main()
