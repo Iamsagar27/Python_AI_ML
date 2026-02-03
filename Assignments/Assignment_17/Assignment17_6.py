@@ -5,3 +5,22 @@
 #           * * *
 #           * *
 #           *
+
+def PrintStars(num):
+    stars = ""
+    for i in range(num):
+        for j in range(num):
+            stars += "*" + " "
+        stars += "\n"
+        num -= 1
+    return stars
+
+def main():
+    number = int(input("Enter a number : "))
+
+    result= PrintStars(number)
+
+    print(result)
+
+if __name__ == "__main__":
+    main()
