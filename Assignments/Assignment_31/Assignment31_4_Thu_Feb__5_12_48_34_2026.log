@@ -1,0 +1,12 @@
+-------------------------------------------------------
+--------------- Python Automation Script --------------
+-------------------------------------------------------
+New Directory named 'Temp1' is created
+
+The file 'Demo.txt' is copied from the 'Demo' folder and pasted into the 'Temp1' folder.'
+The file 'Test.txt' is copied from the 'Demo' folder and pasted into the 'Temp1' folder.'
+
+-------------------------------------------------------
+----------- End of Python Automation Script -----------
+--- Total time of execution : 0.0038156509399414062 ---
+-------------------------------------------------------

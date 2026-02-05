@@ -1,0 +1,19 @@
+-------------------------------------------------------
+--------------- Python Automation Script --------------
+-------------------------------------------------------
+New Directory named 'Temp' is created
+
+The file 'Demo copy.jpeg' is copied from the 'Demo' folder and pasted into the 'Temp' folder.'
+The content of 'Demo copy.jpeg' is copied from the 'Demo' folder and pasted into the 'Temp' folder.
+
+The file 'Demo.txt' is copied from the 'Demo' folder and pasted into the 'Temp' folder.'
+The content of 'Demo.txt' is copied from the 'Demo' folder and pasted into the 'Temp' folder.
+
+The file 'Test.txt' is copied from the 'Demo' folder and pasted into the 'Temp' folder.'
+The content of 'Test.txt' is copied from the 'Demo' folder and pasted into the 'Temp' folder.
+
+
+-------------------------------------------------------
+----------- End of Python Automation Script -----------
+--- Total time of execution : 0.0047643184661865234 ---
+-------------------------------------------------------
